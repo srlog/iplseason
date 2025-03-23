@@ -5,7 +5,7 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--primaryBackground);
+  background-color: #f0f0f0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -14,20 +14,20 @@ html {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: var(--primaryBackground);
+  background-color: #f0f0f0;
   padding: 1rem;
   box-sizing: border-box;
 }
 
 .login-container {
-  background-color: var(--secondaryBackground);
-  color: var(--text);
-  padding: 2rem 1.5rem; /* Matching Register padding */
+  background-color: #ffffff;
+  color: #333333;
+  padding: 2rem 1.5rem;
   width: 100%;
   max-width: 400px;
   border-radius: 12px;
-  box-shadow: 0 0 15px var(--shadow);
-  border: 1px solid var(--border);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid black;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -38,7 +38,7 @@ html {
   font-weight: bold;
   text-align: center;
   margin-bottom: 1.5rem;
-  color: var(--primary);
+  color: #00529b;
 }
 
 .login-form {
@@ -50,27 +50,27 @@ html {
 .login-form input {
   width: 100%;
   padding: 0.75rem;
-  border: 1px solid var(--border);
+  border: 1px solid #cccccc;
   border-radius: 6px;
-  background-color: var(--primaryBackground);
-  color: var(--text);
+  background-color: #f0f0f0;
+  color: #333333;
   font-size: 1rem;
   box-sizing: border-box;
 }
 
 .login-form input:focus {
   outline: none;
-  border: 1px solid var(--primary);
+  border: 1px solid #00529b;
 }
 
 .login-form input::placeholder {
-  color: var(--neutral);
+  color: #999999;
 }
 
 .login-form button {
   width: 100%;
   padding: 0.75rem;
-  background-color: var(--primary);
+  background-color: #00529b;
   color: #000;
   border: none;
   border-radius: 6px;
@@ -83,11 +83,11 @@ html {
 }
 
 .login-form button:hover {
-  background-color: var(--primaryHover);
+  background-color: #004080;
 }
 
 .error-message {
-  color: var(--error);
+  color: #ff3333;
   text-align: center;
   font-size: 0.95rem;
   margin-top: -0.5rem;
@@ -97,11 +97,11 @@ html {
   margin-top: 1rem;
   text-align: center;
   font-size: 0.95rem;
-  color: var(--text);
+  color: #333333;
 }
 
 .register-link a {
-  color: var(--primary);
+  color: #00529b;
   text-decoration: none;
   font-weight: bold;
   margin-left: 0.25rem;
@@ -110,3 +110,4 @@ html {
 .register-link a:hover {
   text-decoration: underline;
 }
+
